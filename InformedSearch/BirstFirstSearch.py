@@ -1,3 +1,4 @@
+# Greedy Searching are Involved
 def best_first_search(graph, heuristic, start, goal):
     pq = []
     pq.append((heuristic[start], start))
